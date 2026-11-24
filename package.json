@@ -1,0 +1,14 @@
+{
+  "name": "mindease",
+  "version": "1.0.0",
+  "description": "MindEase — Mental Wellness, Mindfulness & Emotional Support Platform",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "node run-dev.js",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build && node -e \"const fs=require('fs'); fs.copyFileSync('dist/index.html', '../index.html'); fs.cpSync('dist/assets', '../assets', {recursive:true});\"",
+    "test": "cd backend && npm test"
+  },
+  "keywords": ["mental-health", "mindfulness", "wellness", "react", "express"]
+}

@@ -1,0 +1,468 @@
+{
+  "users": [
+    {
+      "id": "usr_default_demo",
+      "name": "User",
+      "email": "user@mindease.com",
+      "passwordHash": "$2a$10$wT0E6aRkWj0mG56kKj1tPeX9UvLq2iGvN2lM5R3oW0uS8vA6gZ7Wy",
+      "createdAt": "2026-11-17T08:07:53.797Z"
+    }
+  ],
+  "moods": [
+    {
+      "id": "m_1",
+      "userId": "usr_default_demo",
+      "feeling": "Positive",
+      "score": 6,
+      "day": "Mon",
+      "date": "2026-11-10T09:00:00Z",
+      "note": "Feeling energized starting the week"
+    },
+    {
+      "id": "m_2",
+      "userId": "usr_default_demo",
+      "feeling": "Daily Joy",
+      "score": 7,
+      "day": "Tue",
+      "date": "2026-11-11T10:30:00Z",
+      "note": "Great walk in the park"
+    },
+    {
+      "id": "m_3",
+      "userId": "usr_default_demo",
+      "feeling": "Calm",
+      "score": 5,
+      "day": "Wed",
+      "date": "2026-11-12T14:15:00Z",
+      "note": "Steady workday, peaceful afternoon"
+    },
+    {
+      "id": "m_4",
+      "userId": "usr_default_demo",
+      "feeling": "Anxious",
+      "score": 4,
+      "day": "Thu",
+      "date": "2026-11-13T16:00:00Z",
+      "note": "Upcoming deadlines caused mild anxiety"
+    },
+    {
+      "id": "m_5",
+      "userId": "usr_default_demo",
+      "feeling": "Positive",
+      "score": 6,
+      "day": "Fri",
+      "date": "2026-11-14T11:45:00Z",
+      "note": "Wrapped up tasks for the weekend"
+    },
+    {
+      "id": "m_6",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Sat",
+      "date": "2026-11-15T10:00:00Z",
+      "note": "Wonderful time with close friends"
+    },
+    {
+      "id": "m_7",
+      "userId": "usr_default_demo",
+      "feeling": "Daily Joy",
+      "score": 7,
+      "day": "Sun",
+      "date": "2026-11-16T15:20:00Z",
+      "note": "Relaxing Sunday evening"
+    },
+    {
+      "id": "m_6649f6ee-930e-4878-80af-aa2f0b0b5642",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Tue",
+      "date": "2026-11-17T08:16:07.229Z",
+      "note": "Feeling fantastic!"
+    },
+    {
+      "id": "m_0db50b10-4ec2-4fee-85de-ef5e3a93a3fd",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Tue",
+      "date": "2026-11-17T08:18:14.110Z",
+      "note": "Feeling fantastic!"
+    },
+    {
+      "id": "m_7bd9e8f9-5d64-4e62-9b2d-d9998ed8db6e",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Tue",
+      "date": "2026-11-17T08:59:15.772Z",
+      "note": "Feeling fantastic!"
+    },
+    {
+      "id": "m_c69d1621-680d-4b69-a20c-1fa4233b0326",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Mon",
+      "date": "2026-11-23T15:10:35.928Z",
+      "note": "Feeling fantastic!"
+    },
+    {
+      "id": "m_dcff077e-00ca-41d9-81c5-a07790d9a13d",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Mon",
+      "date": "2026-11-23T15:24:26.043Z",
+      "note": "Feeling fantastic!"
+    },
+    {
+      "id": "m_ddd01c44-bd12-402f-8496-7349f0ac12a9",
+      "userId": "usr_default_demo",
+      "feeling": "Radiant",
+      "score": 8,
+      "day": "Tue",
+      "date": "2026-11-24T10:06:12.048Z",
+      "note": "Feeling fantastic!"
+    }
+  ],
+  "journals": [
+    {
+      "id": "j_1",
+      "userId": "usr_default_demo",
+      "title": "Finding Stillness in the Afternoon",
+      "content": "Today I took 5 minutes to step away from screens and practice mindful breathing. Noticeable difference in tension around shoulders.",
+      "moodTag": "Calm",
+      "promptsAnswered": [
+        "What made you feel good today?"
+      ],
+      "createdAt": "2026-11-16T14:00:00Z",
+      "updatedAt": "2026-11-16T14:00:00Z"
+    },
+    {
+      "id": "j_f8dc8dc3-4469-4742-914a-81806162a152",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-17T08:16:07.245Z",
+      "updatedAt": "2026-11-17T08:16:07.245Z"
+    },
+    {
+      "id": "j_7826ceac-d2d8-4b02-8a18-9e5e182a22cb",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-17T08:18:14.126Z",
+      "updatedAt": "2026-11-17T08:18:14.126Z"
+    },
+    {
+      "id": "j_10125864-3d62-46fb-9607-e5fc6bed1c88",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-17T08:59:15.789Z",
+      "updatedAt": "2026-11-17T08:59:15.789Z"
+    },
+    {
+      "id": "j_c8c72351-048d-450d-aefe-35d4062a28bf",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-23T15:10:35.996Z",
+      "updatedAt": "2026-11-23T15:10:35.996Z"
+    },
+    {
+      "id": "j_5903f4a9-0bef-41c0-b818-605c8e5506ef",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-23T15:24:26.118Z",
+      "updatedAt": "2026-11-23T15:24:26.118Z"
+    },
+    {
+      "id": "j_e7095f56-a8d2-4a80-a218-4b29f4b6f682",
+      "userId": "usr_default_demo",
+      "title": "Evening Reflection",
+      "content": "Wrote down my thoughts today. MindEase is feeling very calming.",
+      "moodTag": "Radiant",
+      "promptsAnswered": [],
+      "createdAt": "2026-11-24T10:06:12.059Z",
+      "updatedAt": "2026-11-24T10:06:12.059Z"
+    }
+  ],
+  "breathingSessions": [
+    {
+      "id": "bs_1",
+      "userId": "usr_default_demo",
+      "durationSeconds": 120,
+      "rhythm": "4-4-4-2",
+      "completedAt": "2026-11-16T08:30:00Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_exam_stress",
+      "title": "Managing Exam Stress",
+      "slug": "managing-exam-stress",
+      "summary": "Simple techniques to reduce stress and improve focus.",
+      "category": "Exam Stress",
+      "readTime": "4 min read",
+      "author": "MindEase Clinical Team",
+      "content": "Exam periods often bring intense cognitive pressure and anticipatory anxiety. By structuring review into 25-minute Pomodoro cycles and engaging in 3-minute physiological sigh breathing exercises before study blocks, your nervous system remains regulated.",
+      "tags": [
+        "stress",
+        "focus",
+        "study",
+        "exams"
+      ]
+    },
+    {
+      "id": "res_sleep_hygiene",
+      "title": "Sleep Hygiene 101",
+      "slug": "sleep-hygiene-101",
+      "summary": "How to create a bedtime routine that actually works.",
+      "category": "Sleep",
+      "readTime": "5 min read",
+      "author": "Dr. Sarah Lin",
+      "content": "Sleep is the cornerstone of emotional regulation. Establish a wind-down anchor: dim ambient lighting 60 minutes prior, reserve the bed solely for rest, and swap blue-light scrolling for reflective journaling or body scan meditations.",
+      "tags": [
+        "sleep",
+        "recovery",
+        "routine"
+      ]
+    },
+    {
+      "id": "res_understanding_anxiety",
+      "title": "Understanding Anxiety",
+      "slug": "understanding-anxiety",
+      "summary": "What anxiety is, why it happens, and how to work with it.",
+      "category": "Anxiety Support",
+      "readTime": "6 min read",
+      "author": "MindEase Clinical Team",
+      "content": "Anxiety is your body's survival mechanism signaling anticipated threat. Rather than resisting the physical sensations, practicing the 5-4-3-2-1 grounding technique grounds your awareness back into the present reality.",
+      "tags": [
+        "anxiety",
+        "grounding",
+        "coping"
+      ]
+    },
+    {
+      "id": "res_power_of_journaling",
+      "title": "The Power of Journaling",
+      "slug": "the-power-of-journaling",
+      "summary": "How writing helps process emotions and reduce overwhelm.",
+      "category": "Emotional Wellbeing",
+      "readTime": "3 min read",
+      "author": "Emma Clarke",
+      "content": "Expressive writing externalizes thoughts from the prefrontal cortex onto the page. Research shows just 10 minutes of journaling daily significantly lowers cortisol levels and boosts emotional clarity.",
+      "tags": [
+        "journaling",
+        "reflection",
+        "clarity"
+      ]
+    },
+    {
+      "id": "res_mindful_breathing",
+      "title": "Mindful Breathing Techniques",
+      "slug": "mindful-breathing-techniques",
+      "summary": "Science-backed breathing patterns for instant calm.",
+      "category": "Mindfulness",
+      "readTime": "4 min read",
+      "author": "Dr. James Park",
+      "content": "When you lengthen your exhale relative to your inhale, the vagus nerve signals the parasympathetic nervous system to slow heart rate and blood pressure within seconds.",
+      "tags": [
+        "breathing",
+        "mindfulness",
+        "nervous system"
+      ]
+    },
+    {
+      "id": "res_healthy_habits",
+      "title": "Building Healthy Habits",
+      "slug": "building-healthy-habits",
+      "summary": "Small changes that compound into lasting wellbeing.",
+      "category": "Self-Care",
+      "readTime": "7 min read",
+      "author": "Wellness Collective",
+      "content": "Micro-habits minimize willpower friction. Habit stacking—such as drinking a glass of water while saying one positive affirmation every morning—anchors positive routines effortlessly.",
+      "tags": [
+        "habits",
+        "self-care",
+        "routine"
+      ]
+    },
+    {
+      "id": "res_difficult_relationships",
+      "title": "Navigating Difficult Relationships",
+      "slug": "navigating-difficult-relationships",
+      "summary": "Setting boundaries and communicating with compassion.",
+      "category": "Relationships",
+      "readTime": "5 min read",
+      "author": "Dr. Linda Gomez",
+      "content": "Healthy boundaries are not walls; they are clear gates. Communicating personal limits with gentle assertiveness honors your emotional capacity without unnecessary conflict.",
+      "tags": [
+        "relationships",
+        "boundaries",
+        "communication"
+      ]
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "bm_1",
+      "userId": "usr_default_demo",
+      "resourceId": "res_exam_stress"
+    }
+  ],
+  "supportCircle": [
+    {
+      "id": "sc_1",
+      "userId": "usr_default_demo",
+      "name": "Emma Wilson",
+      "relation": "Sister",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "phone": "+1 (555) 234-5678",
+      "email": "emma.wilson@example.com"
+    },
+    {
+      "id": "sc_2",
+      "userId": "usr_default_demo",
+      "name": "Dr. James Park",
+      "relation": "Counsellor",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "phone": "+1 (555) 876-5432",
+      "email": "dr.james.park@wellnessclinic.org"
+    }
+  ],
+  "supportRequests": [],
+  "mindmateChats": [
+    {
+      "id": "chat_init",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Hello! I'm MindMate. I can support you on your wellness journey today. 🧡",
+      "timestamp": "2026-11-17T08:07:53.798Z"
+    },
+    {
+      "id": "chat_90bfd6bb-4055-4483-aebe-6becb0d08fbe",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-17T08:16:07.239Z"
+    },
+    {
+      "id": "chat_07639e27-47fa-4444-a203-b2d75dca5bcf",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Stress can feel heavy on your body and mind. You don't have to tackle everything at once. Take a slow, deep breath in... and let it out. What is currently weighing on you most?",
+      "timestamp": "2026-11-17T08:16:07.241Z"
+    },
+    {
+      "id": "chat_c1e3054a-c41f-4925-ae26-9bfbd7d86c07",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-17T08:18:14.119Z"
+    },
+    {
+      "id": "chat_57655e41-7f60-4025-98b0-2ebd747bb1aa",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "I hear you. Feeling stressed is so valid, especially when things pile up. Let's take a gentle pause together. Would you like to try a 2-minute Guided Breathing session?",
+      "timestamp": "2026-11-17T08:18:14.121Z"
+    },
+    {
+      "id": "chat_e0024596-276c-4cca-8e05-7121e6fa89c5",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-17T08:59:15.782Z"
+    },
+    {
+      "id": "chat_ea306a4a-a617-49fd-b975-4d6883b5d9be",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Thank you for sharing that with me. Remember to unclench your jaw and drop your shoulders away from your ears. A 5-minute break right now might do wonders.",
+      "timestamp": "2026-11-17T08:59:15.784Z"
+    },
+    {
+      "id": "chat_79a4d953-e897-4cbc-918d-fc810413def5",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-23T15:10:35.963Z"
+    },
+    {
+      "id": "chat_30ef89ef-1665-4ebe-b1e8-e60bf255e133",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Stress can feel heavy on your body and mind. You don't have to tackle everything at once. Take a slow, deep breath in... and let it out. What is currently weighing on you most?",
+      "timestamp": "2026-11-23T15:10:35.973Z"
+    },
+    {
+      "id": "chat_af5a2d34-7116-403e-b275-2612c686d394",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-23T15:24:26.090Z"
+    },
+    {
+      "id": "chat_c97724c9-754f-4fec-9966-50ce263283ba",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Thank you for sharing that with me. Remember to unclench your jaw and drop your shoulders away from your ears. A 5-minute break right now might do wonders.",
+      "timestamp": "2026-11-23T15:24:26.098Z"
+    },
+    {
+      "id": "chat_7518e252-70ed-48e3-9581-d7cbbc59c3e5",
+      "userId": "usr_default_demo",
+      "sender": "user",
+      "message": "I feel stressed about exams",
+      "timestamp": "2026-11-24T10:06:12.055Z"
+    },
+    {
+      "id": "chat_37a3e958-73ca-4327-9bec-f2dd27eb7c5e",
+      "userId": "usr_default_demo",
+      "sender": "assistant",
+      "message": "Thank you for sharing that with me. Remember to unclench your jaw and drop your shoulders away from your ears. A 5-minute break right now might do wonders.",
+      "timestamp": "2026-11-24T10:06:12.056Z"
+    }
+  ],
+  "sosResources": [
+    {
+      "name": "National Suicide & Crisis Lifeline",
+      "contact": "988",
+      "type": "phone",
+      "description": "Free, confidential 24/7 support across the US and Canada."
+    },
+    {
+      "name": "Crisis Text Line",
+      "contact": "Text HOME to 741741",
+      "type": "sms",
+      "description": "Connect with a volunteer crisis counselor 24/7."
+    },
+    {
+      "name": "The Trevor Project (LGBTQ+ Youth)",
+      "contact": "1-866-488-7386",
+      "type": "phone",
+      "description": "Trained counselors available 24/7/365."
+    },
+    {
+      "name": "Emergency Services",
+      "contact": "911 / 112 / 999",
+      "type": "emergency",
+      "description": "Immediate local police, medical, or fire emergency."
+    }
+  ]
+}
